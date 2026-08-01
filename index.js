@@ -3,6 +3,7 @@
 // -Give it some textContent
 // -Add a class name "header"
 // -Append it to the div using the appendChild method
+//Imperative Way
 
 
 const h1 = document.createElement('h1')
