@@ -1,8 +1,11 @@
-const root = ReactDOM.createRoot(document.querySelector("#root"));
-root.render(<ul>
-  <li>I am learning React</li>
-  <li>I want to build websites</li>
-  <li>I want to learn react native</li>
-  <li>I want to build apps from scratch</li>
-  <li>I want to earn from selling apps</li>
-</ul>)
+// Challenge
+// -Create a new H1 element (createElement)
+// -Give it some textContent
+// -Add a class name "header"
+// -Append it to the div using the appendChild method
+
+
+const h1 = document.createElement('h1')
+h1.textContent = "Hello, World!"
+h1.className = "header"
+document.getElementById("root").appendChild(h1)
