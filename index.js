@@ -1,12 +1,8 @@
-// Challenge
+// Imperative Way of Challenge
 // -Create a new H1 element (createElement)
 // -Give it some textContent
 // -Add a class name "header"
-// -Append it to the div using the appendChild method
-//Imperative Way
+// -Append it to the div using appendChild
 
-
-const h1 = document.createElement('h1')
-h1.textContent = "Hello, World!"
-h1.className = "header"
-document.getElementById("root").appendChild(h1)
+const root = ReactDOM.createRoot(document.querySelector('#root'));
+root.render(<h1 className="header">Hello, World!</h1>)
